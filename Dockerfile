@@ -1,4 +1,4 @@
 FROM envoyproxy/envoy-dev
 RUN apt-get update
-COPY envoy.yaml /etc/envoy.yaml
-CMD /usr/local/bin/envoy -c /etc/envoy.yaml
+COPY envoy.yml /etc/envoy.yml
+CMD /usr/local/bin/envoy -c /etc/envoy.yml
